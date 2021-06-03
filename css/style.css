@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f8f7f7;
+    font-family: 'Cairo', sans-serif;
+}
+
+header img {
+    width: 80%;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    top: 0;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header .menu ul li {
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+header span#left {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00f;
+}
+
+header span#right {
+    font-size: 20px;
+    color: #9f9c9c;
+    font-weight: 100;
+}
+
+header .right button {
+    background: #fa8710;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 30px;
+}
+
+.hero .left h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-top: 5px;
+    color: #5f5e5e;
+}
+
+.hero .right img {
+    width: 500px;
+}
+
+section.hero {
+    display: flex;
+    justify-content: space-evenly;
+    background: #fff;
+    align-items: flex-start;
+    padding: 30px 50px 100px;
+}
+
+section.servicess {
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.servicess .top p#par {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.servicess .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.read {
+    width: 31%;
+    padding: 10px 30px;
+    padding-top: 30px;
+    height: 350px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+
+div#\31,
+button#btn1 {
+    background: #F3B575;
+
+}
+
+div#\32,
+button#btn2 {
+    background: #41EAE3;
+}
+
+div#\33,
+button#btn3 {
+    background: #69529F;
+}
+
+div#\34,
+button#btn4 {
+    background: #4386D2;
+}
+
+div#\35,
+button#btn5 {
+    background: #564FD6;
+}
+
+div#\36,
+button#btn6 {
+    background: #FF8088;
+}
+
+.read button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+section.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.Review img {
+    width: 100%;
+}
+
+section.ourPro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 30px auto;
+    align-items: flex-start;
+}
+
+
+.ourPro .left {
+    width: 30%;
+}
+
+.ourPro .right {
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ourPro .right img {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.ourPro .left h2 {
+    font-size: 35px;
+    margin: 10px;
+    color: #706c6c;
+}
+
+.ourPro .left span {
+    font-weight: lighter;
+    color: #7e7e7e;
+}
+
+.ourPro .left ul {
+    list-style: none;
+    margin-top: 50px;
+    line-height: 3;
+}
+
+.ourPro .left ul li a {
+    text-decoration: none;
+    color: #9b9b9b;
+    font-weight: 600;
+}
+
+.ourPro .left ul li a#fi {
+    color: #00f;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+section.OurSu {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+}
+
+section.OurSu .down {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+section.OurSu .down img {
+    border: 3px #dbd9d9 solid;
+    border-radius: 53px;
+    overflow: hidden;
+}
+
+.aboutUs .design {
+    text-align: center;
+    margin: 50px;
+}
+
+.aboutUs .design img {
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+section.OurWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.OurWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    margin: 30px auto;
+}
+
+.OurWork .left img {
+    width: 80%;
+}
+
+.OurWork .right {
+    width: 40%;
+}
+
+.OurWork .right h3 {
+    color: #8b8b8b;
+    font-size: 23px;
+}
+
+.OurWork .right p {
+    color: #a3a0a0;
+}
+
+section.blog {
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.blog p.top {
+    width: 50%;
+    margin: 20px auto;
+}
+
+
+.blog .cutting {
+    display: flex;
+}
+
+.blog .cutting .cut {
+    background: #fff;
+    margin: 15px;
+    text-align: left;
+    height: 420px;
+}
+
+.blog .cutting .cut img {
+    width: 100%;
+    height: 215px;
+}
+
+.blog .cutting .cut .cont {
+    padding: 0px 30px;
+}
+
+.blog .cutting .cut .cont i.fas.fa-arrow-right {
+    color: #00f;
+    font-size: 20px
+}
+
+.brand img {
+    width: 100%;
+}
+
+footer {
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    color: #848484;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 2;
+}
+
+footer .tit {
+    display: flex;
+}
+
+footer .tit h2#le {
+    margin-right: 5px;
+    color: #00f;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #848484;
+}
+
+footer .summery,
+footer .Us,
+footer .Com,
+footer .Contact {
+    width: 24%;
+}
+
+footer .copyright {
+    width: -webkit-fill-available;
+    color: #c6c5c5;
+    margin-top: 60px;
+}
+
+footer .social {
+    color: #212180;
+    font-size: 35px;
+}
